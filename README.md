@@ -33,13 +33,13 @@
 
 [1.7 关于独立开发者的一些思考](https://www.youtube.com/watch?v=1qaxRs5Lj_0)
 
-### 第二阶段
+### 第二阶段「ICP 之 Motoko 初级教程」
 
 2.0 了解和安装 DFX, Vessel 是什么
 
 2.1 快速实现 React 或 Vue 代码部署到 IC 主网
 
-2.2 使用 React+ Tailwind2 布局
+2.2 了解 React+ Typescrit 和使用 Tailwind2 布局
 
 2.3 Typescrit 简单入门
 
