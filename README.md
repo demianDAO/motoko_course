@@ -45,7 +45,7 @@
 
 [2.4 Motoko 的起源和介绍](https://www.youtube.com/watch?v=r3twC3_Vx8s)
 
-2.5.1 Motoko 的特性，以及 Motoko 的资料收集
+2.5 Motoko 的资料和学习库收集
 
 2.6 Motoko 和 WASM、EVM 的区别和关系
 
