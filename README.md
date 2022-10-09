@@ -35,17 +35,17 @@
 
 ### 第二阶段「ICP 之 Motoko 初级教程」
 
-2.0 了解和安装 DFX, Vessel 是什么
+[2.0 了解和安装 DFX, Vessel 是什么](https://www.youtube.com/watch?v=u3ArqYelBKA)
 
-2.1 快速实现 React 或 Vue 代码部署到 IC 主网
+[2.1 快速实现 React 或 Vue 代码部署到 IC 主网](https://www.youtube.com/watch?v=CWJd924_ZV8)
 
-2.2 了解 React+ Typescrit 和使用 Tailwind2 布局
+[2.2 了解 React+ Typescrit 和使用 Tailwind2 布局](https://www.youtube.com/watch?v=IxLBc-0RN_4)
 
-2.3 Typescrit 简单入门
+[2.3 Typescrit 简单入门](https://ts.xcatliu.com/introduction/what-is-typescript.html)
 
 [2.4 Motoko 的起源和介绍](https://www.youtube.com/watch?v=r3twC3_Vx8s)
 
-2.5 Motoko 的资料和学习库收集
+2.5 Motoko 的资料和基础库收集
 
 2.6 Motoko 和 WASM、EVM 的区别和关系
 

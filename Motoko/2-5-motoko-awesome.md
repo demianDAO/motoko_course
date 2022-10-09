@@ -1,4 +1,4 @@
-# Motoko 的资料和学习库收集
+# Motoko 的资料和基础库收集
 
 ## 在线编写 motoko
 
@@ -16,7 +16,11 @@
 
 [存储库参考](https://github.com/open-ic/open-storage)
 
-## agent
+[aviate labs](https://github.com/aviate-labs)
+
+[psychedelic](https://github.com/psychedelic)
+
+## Agent
 
 [python](https://github.com/rocklabs-io/ic-py)
 
@@ -24,7 +28,9 @@
 
 [rust](https://github.com/dfinity/cdk-rs)
 
-[go]()
+[go](https://github.com/aviate-labs/agent-go)
+
+[java](https://github.com/rdobrik/dfinity-agent)
 
 ## 插件推荐
 
