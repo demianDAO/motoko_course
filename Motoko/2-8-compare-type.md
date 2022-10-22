@@ -1,4 +1,6 @@
-# motoko 的数据类型
+# motoko 的数据类型 -- 复合类型
+
+[数据类型](https://www.wikiwand.com/zh-cn/%E8%B3%87%E6%96%99%E9%A1%9E%E5%9E%8B)
 
 ## 复合类型
 
