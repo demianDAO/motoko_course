@@ -1,4 +1,4 @@
-# 特殊类型 - 函数和异步
+# 特殊类型 - 函数和异步以及其它特殊类型
 
 ## 什么是函数?
 
@@ -42,6 +42,15 @@ map : <A, B>(f : A -> B, xs : [A]) -> [B]
 ### 函数声明
 
 一般分为: 公共函数和私有函数
+
+function 声明 `<shared-pat>? func <id>? <typ-params>? <pat> (: <typ>)? =? <exp>`是函数表达式的 let 命名声明或匿名表达式声明的语法糖，等价于：
+`let <id> = <shared-pat>? func <typ-params>? <pat> (: <typ>)? =? <block-or-exp>` // 具有 id 标识符
+
+`<shared-pat>? func <typ-params>? <pat> (: <typ>)? =? <block-or-exp>` // 不具有 id 标识符
+
+function 声明具有 function 类型的返回值。
+
+注意：shared function 只能作为 actor 的 public 字段。
 
 ```
 
@@ -225,6 +234,40 @@ actor Broadcast {
   system func postupgrade() {  Debug.print("restoring receivers"); }
 }
 
+```
+
+## share 类型
+
+shared function 是可以被远程调用者访问，因此限制 shared function 的入参必须为 shared 类型，返回值必须具有 async T 类型，类型 T 必须是 shared 类型。
+
+- 以下类型 T 是 shared 类型：
+  - `Bool、Char、Text、Bolb、Float、Int、IntN、Nat、NatN、Principal`类型。
+  - Any、None 类型。
+  - actor 类型。
+  - ?T 类型，并且 T 也是 shared 类型。
+  - (T0,T1...,Tn)并且所有 Ti 都是 shared 类型。
+  - array 类型，并且是不可变数组[T]，并且 T 也是 shared 类型。
+  - object 类型，并且所有的字段是不可变的，并且这些字段是 shared 类型。
+  - variant 类型，并且其所有的 tag 都是 shared 类型。
+  - function 类型，并且该 function 是 shared 声明的。
+
+注意：Error 类型不是 shared 类型。
+
+## Well Formed 类型
+
+- motoko 中所有的类型必须是 well formed。类型 T 以及组成类型 T 的类型满足以下条件，那么类型 T 是 well formed：
+  - 如果 T 是 async U 类型，那么 U 必须是 shared 类型。
+  - 如果 T 是 shared query? U → V 类型，那么 U 必须是 shared 类型，并且 V 是单元类型()或者 async W 类型。
+  - 如果 T 是 T 是 type C`<X0 <: U0, Xn <: Un>`= W 声明类型构造的 C<V0, …, Vn>类型，那么 Vi 必须是 Ui 的子类型。
+  - 如果 T 是 actor 类型，那么其中的所有字段必定是不可变的，并且 function 必然是 shared 函数。
+
+## 子类型
+
+如果 T 类型是 U 类型的子类型，那么记为 T <: U。如果类型 T 是类型 U 的子类型，那么类型 T 的值可以成为类型 U 的值，例如：
+
+```
+let num1:Nat  = 1;
+let num2:Int = num1; // num1虽然类型为Nat，但是由于Nat <: Int，因此num1的值也是Int类型
 ```
 
 ### 参考
