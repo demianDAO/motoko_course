@@ -45,17 +45,17 @@
 
 [2.4 Motoko 的起源和介绍](https://www.youtube.com/watch?v=r3twC3_Vx8s)
 
-2.5 Motoko 的资料和基础库收集
+[2.5 Motoko 的资料和基础库收集](https://www.youtube.com/watch?v=wXqTo3_w7ZM)
 
-2.6 Motoko 和 WASM、EVM 的区别和关系
+[2.6 Motoko 和 WASM、EVM 的区别和关系](https://www.youtube.com/watch?v=iJakBRdpFIw)
 
 2.7 Motoko 基本语法
 
-2.7.1 数据类型 - 原始类型
+[2.7.1 数据类型 - 原始类型](https://www.youtube.com/watch?v=q7EubhkcBqM)
 
-2.7.2 数据类型 - 复合类型
+[2.7.2 数据类型 - 复合类型](https://www.youtube.com/watch?v=92GAjRk4FUE)
 
-2.7.3 特殊类型 - 函数和异步
+[2.7.3 特殊类型 - 函数和异步](https://www.youtube.com/watch?v=ets_K8UDNsM)
 
 2.7.4 声明
 
@@ -63,11 +63,11 @@
 
 2.7.6 表达式
 
-2.7.7 运算符
+[2.7.7 运算符](https://www.youtube.com/watch?v=2nNRQ27tdEI)
 
 2.8 Motoko 基础库
 
-2.8.1 Motoko 如何编译
+2.8.1 dfx 使用和 Motoko 如何编译
 
 2.9 如何设计简单的数据结构
 
@@ -107,8 +107,26 @@
 
 Rust 入门
 
-## 扩展课程
+## 扩展课程和思考
 
 区块链项目如何运营和增长
 
 Motoko 和 Rust 算法实现
+
+[关于 web3 的思考, x to earn 和 dapp 哪个先崛起](https://www.youtube.com/watch?v=fBky5coAET4)
+
+[「ICP 最新动态」SNS 即将上线, 首发可能是 openchat、dscvr、distrikt](https://www.youtube.com/watch?v=dT_92d_Ku8I)
+
+[一个投资的逻辑，币圈最重要的是什么？](https://www.youtube.com/watch?v=k5Q0tVnU6uw)
+
+[寻找工具/平台型产品，用 ETH 思考 ICP，抓住机会？](https://www.youtube.com/watch?v=2swE3BO5TuU)
+
+## 区块链基础科普系列
+
+[什么是 Web 3.0 和 ICP 生态何时爆发和发币如何投资？](https://www.youtube.com/watch?v=uO5QGMyih-o)
+
+[「区块链基础科普」为什么关注研报和数据在区块链和加密货币中越来越重要?](https://www.youtube.com/watch?v=zF0BhAhVvAw)
+
+[「加密货币科普系列」什么是模因文化和模因币](https://www.youtube.com/watch?v=aDfDyDs8i1A)
+
+[加密货币投资逻辑之 - 利息、资本、项目和技术角度分析](https://www.youtube.com/watch?v=wTCmvHnxO9Y)
