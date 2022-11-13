@@ -65,9 +65,9 @@
 
 [2.7.7 运算符](https://www.youtube.com/watch?v=2nNRQ27tdEI)
 
-2.8 Motoko 基础库
+[2.8 Motoko 基础库](https://www.youtube.com/watch?v=5QfrY2-k8c8)
 
-2.8.1 dfx 使用和 Motoko 如何编译
+[2.8.1 dfx 使用和 Motoko 如何编译](https://www.youtube.com/watch?v=7rYeTeGohR8)
 
 2.9 如何设计简单的数据结构
 
@@ -83,7 +83,7 @@
 
 3.2 寻找脚手架
 
-3.3 调研项目和分析
+3.3 调研项目和分析需求
 
 3.4 原型图和设计
 
